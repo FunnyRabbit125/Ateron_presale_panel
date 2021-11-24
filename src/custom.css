@@ -1,0 +1,104 @@
+.header {
+	display: flex;
+	background-color: rgb(0,0,0);
+	justify-content: flex-end;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+.content {
+    margin-top: 3px;
+	background-color: rgb(0,0,31);
+	width: 100%;
+	min-height: calc(100vh - 103px);
+	display: flex;
+	justify-content: center;
+	border-top: 3px solid white;
+}
+
+.content .main {
+	width: 500px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .title {
+    margin-top: 20px;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+.content .main .swapContent {
+	background-color: rgb(26, 26, 40);
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.swapContent .swapTitle {
+	color: white;
+	font-size: 20px;
+}
+
+.swapContent .tokenContent {
+	margin-top: 10px;
+	padding: 15px;
+	background-color: rgb(32, 34, 48);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tokenContent1 {
+	margin-top: 30px !important;
+}
+
+.swapContent .tokenContent .tokenName {
+	font-size: 23px;
+	color: white;
+}
+
+.swapContent .tokenContent img {
+    width: 40px;
+    height: 40px;
+	border-radius: 50%;
+}
+
+.swapContent .tokenContent .tokenImg {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swapContent .tokenContent .tokenValue {
+	background-color: rgb(26, 26, 40);
+	height: 40px;
+	border-radius: 7px;
+	width: 300px;
+}
+
+.swapContent .tokenContent img {
+	width: 40px;
+	border-radius: 50%;
+}
+
+.swapContent .swapBtn {
+	margin-top: 20px;
+	background-color: rgb(18, 46, 74);
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+    color: white;
+    width: 70%;
+}
